@@ -1,5 +1,5 @@
 import React , {Component}from 'react';
-import {BrowserRouter , Route } from 'react-router-dom';
+import {BrowserRouter , Route  } from 'react-router-dom';
 // import { Route, Switch} from 'react-router-dom';
 
 import './App.css';
@@ -22,7 +22,7 @@ class App extends Component{
     return(
   <>
       <BrowserRouter>
-
+<div>
           <Route exact path='/' component={Home}/>
           <Route exact path='/about' component={About}/>
           <Route exact path='/Services' component={Servicespage} />
@@ -32,7 +32,7 @@ class App extends Component{
      
             
           <Footer />
-          
+          </div>
              </BrowserRouter>
         
          </>
