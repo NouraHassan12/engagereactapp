@@ -1,0 +1,78 @@
+.bgimmfooter{
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
+    url(../../../src/img/footer.jpg) top center;
+   background-size: cover;
+   
+
+}
+
+
+.footer {
+    display: table;
+    width: 100%;
+    
+   
+ 
+  }
+
+
+ .footer-container {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .footer h2{
+    
+    font-weight: 400;
+    line-height: 25px;
+    color: white;
+  }
+
+  .footer p{
+      color:rgb(119, 119, 119)
+  }
+
+  .ull{
+      list-style-type: none;
+  }
+  .ull li{
+    color:rgb(119, 119, 119);
+    text-align:center;
+ margin-right: 7%;
+  }
+
+  .ull li{
+      line-height: 2;
+  }
+  .ull li i{
+      margin-right: 5px;
+  }
+.iconssec i {
+  
+font-size:20px;
+margin:5px;
+text-decoration-color: none;
+color:rgb(230, 222, 222)
+
+}
+
+.twittericon i:hover{
+color: rgb(88, 173, 243);
+}
+
+.facebookicon i:hover{
+    color: rgb(62, 62, 172);
+}
+
+
+.linkedin i:hover{
+    color: rgb(20, 20, 136);
+}
+
+.google i:hover{
+    color: rgb(192, 57, 39);
+}
+

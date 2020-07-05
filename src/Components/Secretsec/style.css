@@ -1,0 +1,49 @@
+ .secsection-icon {
+    float: left;
+    font-size: 20px;
+    color:rgba(76, 175, 80);
+    margin-right: 10px;
+  
+    
+  }
+  
+  
+  
+ .secsection-title {
+   
+    font-weight: 600;
+   
+
+ 
+  }
+
+
+    
+  
+  .actions a {
+
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 2px;
+    transition: 0.5s;
+    margin: 10px;
+ 
+  }
+
+
+  .btn-get-started {
+    background: rgba(76, 175, 80);
+    color: #fff;
+  }
+
+  .btn-get-started:hover {
+    background: black;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  

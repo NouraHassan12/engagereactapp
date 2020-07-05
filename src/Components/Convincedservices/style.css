@@ -1,0 +1,61 @@
+/* .heroconv {
+    display: table;
+    width: 100%;
+    height: 70vh;
+ 
+  } */
+  
+  .bgconvser{
+    background:linear-gradient(rgba(15, 126, 34, 0.6),rgba(12, 98, 26, 0.6)),
+     url(../../../src/img/businessmain.jpg) top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    height: 50vh
+
+    
+  }
+
+  /* .heroconv .heroconv-container {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: bottom;
+  } */
+  
+  .heroconv h5{
+    
+    font-weight: 400;
+    line-height: 25px;
+    color: #fff;
+  }
+
+  
+
+   .heroconv .actions a {
+
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 2px;
+    transition: 0.5s;
+    /* margin: 10px; */
+    color:black;
+    text-decoration: none;
+  }
+  .heroconv .btn-get-startedddd{
+    background: white;
+    border: 2px solid white;
+    /* color: black;  */
+   } 
+
+  .heroconv .btn-get-startedddd:hover{
+          background: none;
+          color:white 
+
+   }
+

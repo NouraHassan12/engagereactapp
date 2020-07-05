@@ -1,0 +1,53 @@
+.contactsec{
+    background-color: rgba(76, 175, 80);
+    padding:70px 40px;
+
+}
+
+
+
+.actionsss .btn-get-started{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+   /* margin-left:20%; */
+ 
+    
+}
+
+.contactsec .btn-get-started {
+  background: white;
+ 
+  color: black;
+}
+
+.contactsec .btn-get-started:hover {
+  background: black;
+
+  color: #fff;
+}
+
+
+
+
+
+.btn-get-started {
+    background:white;
+    color: #fff;
+    padding: 30px;
+
+   
+  }
+
+  
+  
+  .btn-get-started:hover {
+    background: black;
+    color: white;
+    
+  }
