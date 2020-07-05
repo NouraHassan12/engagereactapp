@@ -1,5 +1,6 @@
 import React , {Component}from 'react';
-import {BrowserRouter , Route ,} from 'react-router-dom';
+import {BrowserRouter , Route ,Switch} from 'react-router-dom';
+// import { Route, Switch} from 'react-router-dom';
 
 import './App.css';
 // import Navb from './Components/navbaar/Navb.js';
@@ -19,19 +20,19 @@ import News from './Components/News/News';
 class App extends Component{
   render(){
     return(
-  
-      <React.Fragment>
-        <BrowserRouter>
+  <>
+      <BrowserRouter>
+        <Switch>
           <Route exact path='/' component={Home}/>
           <Route exact path='/about' component={About}/>
           <Route exact path='/Services' component={Servicespage} />
           <Route exact path='/Pricing' component={Pricing} />
           <Route exact path='/Contact' component={Pageofcontacts}/>
           <Route exact path='/News' component={News}/>
-          </BrowserRouter>
+          </Switch>
              <Footer />
-             </React.Fragment>
-         
+             </BrowserRouter>
+         </>
         
 
 
