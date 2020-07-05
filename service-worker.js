@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/engagereactapp/precache-manifest.8be2ff08ea70f892c1a9e7a51ff208b7.js"
+  "/engagereactapp/precache-manifest.590d2724c62a410e4dd0c223c9bf4654.js"
 );
 
 self.addEventListener('message', (event) => {
