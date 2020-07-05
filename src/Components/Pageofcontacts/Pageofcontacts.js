@@ -13,7 +13,7 @@ const Pageofcontacts =(props)=>{
 
   
 
-<nav className="navbar navbar-expand-lg navbar-light ">
+{/* <nav className="navbar navbar-expand-lg navbar-light ">
   <h1 className="navbar-brand" style={{color: 'blak'}}>engage</h1>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@ const Pageofcontacts =(props)=>{
     </ul>
   
   </div>
-</nav>
+</nav> */}
       
     </div>
   {/* </header> */}
