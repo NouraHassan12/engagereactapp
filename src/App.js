@@ -21,7 +21,7 @@ class App extends Component{
   render(){
     return(
   <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route exact path='/about' component={About}/>
@@ -30,8 +30,10 @@ class App extends Component{
           <Route exact path='/Contact' component={Pageofcontacts}/>
           <Route exact path='/News' component={News}/>
           </Switch>
+          
+             </BrowserRouter> */}
+             <Home />
              <Footer />
-             </BrowserRouter>
          </>
         
 
